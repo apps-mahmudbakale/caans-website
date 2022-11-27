@@ -88,7 +88,7 @@
 									<a href="#" class="btn btn-modern btn-primary mt-3">Hire Me</a> --}}
 								</div>
 								<div class="col-sm-6 text-lg-end my-4 my-lg-0">
-									<span class="alternative-font">Bello B. Shehu</span>
+									<span class="alternative-font">Prof. Bello B. Shehu</span>
 								</div>
 							</div>
 						</div>
