@@ -76,19 +76,25 @@
 								<h2 class="text-color-dark font-weight-bold text-8 mb-0 pt-0 mt-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="300">Presidents' Welcome</h2>
 							</div>
 							<div class="overflow-hidden mb-3">
-								<p></p>
+								<p class="text-dark text-3">Welcome to Continental Association of African Neurosurgical Society Website (CAANS) </p>
 							</div>
-							<p class="lead appear-animation text-justify text-dark" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">Indeed, Neurosurgeons from all parts of Africa (East, West, North, South and Central) are committed to working together to meet the important needs of Neurosurgery including populations in sub-Saharan Africa. In recent years, we are particularly pleased to see the dynamism, willingness and enthusiasm of young African doctors for Neurosurgery within CAANS.
-                                This was made possible by the commitment and solidarity drive initiated by the WFNS, including Professor Madjid Samii, Founder of the “Africa 100” project, as well as the contributions of the WFNS Foundation and the many regional and continental societies to whom we express our thanks, appreciation and gratitude.</p>
-							
+							<p class="lead text-justify text-dark">
+								over the last 10 years, CAANS through collaboration with individuals, Continental bodies, and its member societies has built a beneficial resource for Continues Medical Education (CME) for the young neurosurgeons.</p>
+							<p class="lead text-justify text-dark">It is our hope that withing the Continent member countries will continue to interact and increase collaborations between each other to facilitate exchange of residents and where possible create training slots and financial support for residents from the sister countries that do not yet have Neurosurgery training program.
+							</p>
+							<p class="lead text-justify text-dark">
+								We believe individual Neurosurgeons and other members of sister Continental bodies, with the World Federation of Neurological Societies (WFNS) will continue to support the training Centres within Africa with both human and material assistance to advance the practice of Neurosurgery within the Continent.
+							</p>
 							<hr class="solid my-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
 							<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
 								<div class="col-lg-6">
-									{{-- <a href="#" class="btn btn-modern btn-dark mt-3">Get In Touch</a>
-									<a href="#" class="btn btn-modern btn-primary mt-3">Hire Me</a> --}}
+									<p class="text-dark">We Welcome To our Website</p>
 								</div>
 								<div class="col-sm-6 text-lg-end my-4 my-lg-0">
-									<span class="alternative-font">Prof. Bello B. Shehu</span>
+									<span class="alternative-font">Professor B. B. Shehu</span>
+									<br>
+									<span>CAANS PRESIDENT</span>
+
 								</div>
 							</div>
 						</div>
