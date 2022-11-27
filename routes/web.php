@@ -25,6 +25,19 @@ Route::get('/presidential-message', function () {
     return view('president');
 })->name('president');
 
+
+Route::get('/honorary', function () {
+    return view('honorary');
+})->name('honorary');
+
+Route::get('/officers', function () {
+    return view('officers');
+})->name('officers');
+
+Route::get('/committee', function () {
+    return view('committee');
+})->name('committee');
+
 Route::get('/bylaws', function () {
     return view('bylaws');
 })->name('bylaws');

@@ -4,8 +4,10 @@
             <div class="col-md-6 col-lg-5 mb-5 mb-lg-0">
                 <h5 class="text-6 text-transform-none font-weight-semibold text-color-light mb-4">Contact
                     Details</h5>
-                <p class="text-4 mb-1">Address</p>
-                {{-- <p class="text-4 mb-4 pb-1">Porto Blvd, Suite</p> --}}
+                <p class="text-4 mb-1">Regional Center for Neurosugery</p>
+                <p class="text-4 mb-1 pb-1">Usman Danfodiyo University</p>
+                <p class="text-4 mb-1 pb-1">P.M.B. 2346, Sokoto</p>
+                <p class="text-4 mb-4 pb-1">Sokoto Nigeria</p>
 
                 <p class="text-5 mb-1 pt-2">Call: <a href="tel:1234567890"
                         class="text-decoration-none">123-456-7890</a></p>

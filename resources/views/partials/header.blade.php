@@ -43,13 +43,13 @@ data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEn
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li class="dropdown">
-                                                <a class="dropdown-item" href="#">Honorary Presidents</a>
+                                                <a class="dropdown-item" href="{{route('honorary')}}">Honorary Presidents</a>
                                             </li>
                                             <li class="dropdown">
-                                                <a class="dropdown-item" href="#">Officers</a>
+                                                <a class="dropdown-item" href="{{route('officers')}}">Officers</a>
                                             </li>
                                             <li class="dropdown">
-                                                <a class="dropdown-item" href="#">Committees</a>
+                                                <a class="dropdown-item" href="{{route('committee')}}">Committees</a>
                                             </li>
                                             <li class="dropdown">
                                                 <a class="dropdown-item" href="#">Member Society</a>

@@ -52,16 +52,17 @@
 			@include('partials.header')
 
 			<div role="main" class="main">
-				<section class="page-header page-header-modern page-header-background page-header-background-md overlay overlay-color-dark overlay-show overlay-op-7" style="background-image: url({{asset('images/AdobeStock_172813720.jpeg')}});">
+				<section class="page-header page-header-modern page-header-background page-header-background-md overlay overlay-color-dark overlay-show overlay-op-5" style="background-image: url({{asset('images/AdobeStock_172813720.jpeg')}});">
 					<div class="container">
-						<div class="row mt-5">
-							<div class="col-md-12 align-self-center p-static order-2 text-center">
-								<h1 class="text-12 font-weight-semibold">Presidential Message</h1>
+						<div class="row">
+							<div class="col-md-8 order-2 order-md-1 align-self-center p-static">
+								<h1><strong>Committees</strong></h1>
+								<span class="sub-title">We are proud to introduce you to our team.</span>
 							</div>
-							<div class="col-md-12 align-self-center order-1">
-								<ul class="breadcrumb breadcrumb-light d-block text-center">
+							<div class="col-md-4 order-1 order-md-2 align-self-center">
+								<ul class="breadcrumb breadcrumb-light d-block text-md-end">
 									<li><a href="{{route('welcome')}}">Home</a></li>
-									<li class="active">Pages</li>
+									<li class="active">Committee</li>
 								</ul>
 							</div>
 						</div>
@@ -70,48 +71,25 @@
 
 				<div class="container py-4">
 
-					<div class="row">
-						<div class="col-md-7 order-2">
-							<div class="overflow-hidden">
-								<h2 class="text-color-dark font-weight-bold text-8 mb-0 pt-0 mt-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="300">Presidents' Welcome</h2>
-							</div>
-							<div class="overflow-hidden mb-3">
-								<p class="text-dark text-3">Welcome to Continental Association of African Neurosurgical Society Website (CAANS) </p>
-							</div>
-							<p class="lead text-justify text-dark">
-								over the last 10 years, CAANS through collaboration with individuals, Continental bodies, and its member societies has built a beneficial resource for Continuous Medical Education (CME) for the young neurosurgeons.
-								.</p>
-							<p class="lead text-justify text-dark">It is our hope that within the Continent member countries will continue to interact and increase collaborations between each other to facilitate exchange of residents and where possible create training slots and financial support for residents from the sister countries that do not yet have Neurosurgery training program.
-							</p>
-							<p class="lead text-justify text-dark">
-								We believe individual Neurosurgeons and members of sister Continental bodies, with the World Federation of Neurological Societies (WFNS) will continue to support the training Centres within Africa with both human and material assistance to advance the practice of Neurosurgery within the Continent.
-							</p>
-							<hr class="solid my-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
-							<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
-								<div class="col-lg-6">
-									<p class="text-dark">We Welcome To our Website</p>
-								</div>
-								<div class="col-sm-6 text-lg-end my-4 my-lg-0">
-									<span class="alternative-font">Professor B. B. Shehu</span>
-									<br>
-									<span>CAANS PRESIDENT</span>
-
-								</div>
-							</div>
-						</div>
-						<div class="col-md-5 order-md-2 mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInRightShorter">
-							<img src="{{asset('images/President.jpeg')}}" class="img-fluid" alt="">
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col">
-							<hr class="solid my-5">
-						</div>
-					</div>
-
-
-
+                    <div class="row team-list sort-destination">
+                        <div class="col-12 col-sm-6 col-lg-6">
+                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
+                                <span class="thumb-info-wrapper">
+                                    <a href="">
+                                        <img src="{{asset('images/avatar.jpg')}}" class="img-fluid" alt="">
+                                        <span class="thumb-info-title">
+                                            <span class="thumb-info-inner">Edwin Mogere</span>
+                                            <span class="thumb-info-type">CHAIRMAN EDUCATION COMMITTEE</span>
+                                        </span>
+                                    </a>
+                                </span>
+                                {{-- <span class="thumb-info-caption">
+                                    <span class="thumb-info-caption-text"><a href="mailto:bebashe7@gmail.com" class="btn btn-outline btn-quaternary w-100 mb-2">bebashe7@gmail.com</a></span>
+                                </span> --}}
+                               
+                            </span>
+                        </div>
+                    </div>
 				</div>
 
 			</div>
