@@ -76,7 +76,7 @@
                             <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                                 <span class="thumb-info-wrapper">
                                     <a href="">
-                                        <img src="{{asset('images/avatar.jpg')}}" class="img-fluid" alt="">
+                                        <img src="{{asset('images/President.jpeg')}}" class="img-fluid" alt="">
                                         <span class="thumb-info-title">
                                             <span class="thumb-info-inner">Bello B. Shehu</span>
                                             <span class="thumb-info-type">PRESIDENT</span>
@@ -138,7 +138,7 @@
                             <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                                 <span class="thumb-info-wrapper">
                                     <a href="">
-                                        <img src="{{asset('images/avatar.jpg')}}" class="img-fluid" alt="">
+                                        <img src="{{asset('images/Treasurer.jpeg')}}" class="img-fluid" alt="">
                                         <span class="thumb-info-title">
                                             <span class="thumb-info-inner">John Ouma</span>
                                             <span class="thumb-info-type">TREASURER</span>
@@ -184,6 +184,20 @@
                                         <span class="thumb-info-title">
                                             <span class="thumb-info-inner">Abdelmajid Chellaoui</span>
                                             <span class="thumb-info-type">ASSISTANT TREASURER</span>
+                                        </span>
+                                    </a>
+                                </span>
+                              
+                            </span>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-6 isotope-item development">
+                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
+                                <span class="thumb-info-wrapper">
+                                    <a href="">
+                                        <img src="{{asset('images/Editor.jpeg')}}" class="img-fluid" alt="">
+                                        <span class="thumb-info-title">
+                                            <span class="thumb-info-inner">Aaron Musara</span>
+                                            <span class="thumb-info-type">EDITOR</span>
                                         </span>
                                     </a>
                                 </span>
