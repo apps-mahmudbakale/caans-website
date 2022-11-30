@@ -52,18 +52,18 @@ data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEn
                                                 <a class="dropdown-item" href="{{route('committee')}}">Committees</a>
                                             </li>
                                             <li class="dropdown">
-                                                <a class="dropdown-item" href="#">Member Society</a>
+                                                <a class="dropdown-item" href="{{route('members-society')}}">Member Society</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a class="dropdown-item" href="#">
+                                        <a class="dropdown-item" href="{{route('events')}}">
                                             Events
                                         </a>
 
                                     </li>
                                     <li class="dropdown">
-                                        <a class="dropdown-item" href="#">
+                                        <a class="dropdown-item" href="{{route('journals')}}">
                                             Journals
                                         </a>
 
@@ -73,55 +73,8 @@ data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEn
                                             News
                                         </a>
                                     </li>
-                                    {{-- <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#">
-                                                Membership
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">Single Product</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="shop-product-full-width.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="shop-product-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="shop-product-sidebar-right.html">Right Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="shop-product-sidebar-left-and-right.html">Left and Right Sidebar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a class="dropdown-item" href="shop-4-columns.html">4 Columns</a></li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">3 Columns</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="shop-3-columns-full-width.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="shop-3-columns-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="shop-3-columns-sidebar-right.html">Right Sidebar </a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">2 Columns</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="shop-2-columns-full-width.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="shop-2-columns-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="shop-2-columns-sidebar-right.html">Right Sidebar </a></li>
-                                                        <li><a class="dropdown-item" href="shop-2-columns-sidebar-left-and-right.html">Left and Right Sidebar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">1 Column</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="shop-1-column-full-width.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="shop-1-column-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="shop-1-column-sidebar-right.html">Right Sidebar </a></li>
-                                                        <li><a class="dropdown-item" href="shop-1-column-sidebar-left-and-right.html">Left and Right Sidebar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a class="dropdown-item" href="shop-cart.html">Cart</a></li>
-                                                <li><a class="dropdown-item" href="shop-login.html">Login</a></li>
-                                                <li><a class="dropdown-item" href="shop-checkout.html">Checkout</a></li>
-                                                <li><a class="dropdown-item" href="shop-order-complete.html">Order Complete</a></li>
-                                            </ul>
-                                        </li> --}}
                                     <li class="dropdown">
-                                        <a class="dropdown-item" href="#">
+                                        <a class="dropdown-item" href="{{route('contact')}}">
                                             Contact
                                         </a>
 

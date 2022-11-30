@@ -1,6 +1,9 @@
 <?php
 
+use App\Models\Region;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\MemberController;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,10 +41,33 @@ Route::get('/committee', function () {
     return view('committee');
 })->name('committee');
 
+Route::get('/events', function () {
+    return view('events');
+})->name('events');
+
+Route::get('/journals', function () {
+    return view('journals');
+})->name('journals');
+
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
+
 Route::get('/bylaws', function () {
     return view('bylaws');
 })->name('bylaws');
 
+Route::get('/members-society', function () {
+    $regions = Region::all();
+    return view('members', compact('regions'));
+})->name('members-society');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::resource('users', UserController::class);
+Route::resource('members', MemberController::class);
+Route::get('getCountries/{id}', [MemberController::class, 'getCountries']);
+Route::get('members-society/{region}', [MemberController::class, 'getMembersByRegion']);
+Route::get('members-society/country/{country}', [MemberController::class, 'getMembersByCountry']);
