@@ -66,8 +66,11 @@ Route::get('/members-society', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::resource('users', UserController::class);
-Route::resource('members', MemberController::class);
+Route::group(['middleware' => ['auth']], function () { 
+    Route::resource('users', UserController::class);
+    Route::resource('members', MemberController::class);
+});
+
 Route::get('getCountries/{id}', [MemberController::class, 'getCountries']);
 Route::get('members-society/{region}', [MemberController::class, 'getMembersByRegion']);
 Route::get('members-society/country/{country}', [MemberController::class, 'getMembersByCountry']);
