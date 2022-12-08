@@ -93,7 +93,7 @@
                             <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                                 <span class="thumb-info-wrapper">
                                     <a href="">
-                                        <img src="{{asset('images/avatar.jpg')}}" class="img-fluid" alt="">
+                                        <img src="{{asset('images/secretsry.jpeg')}}" class="img-fluid" alt="">
                                         <span class="thumb-info-title">
                                             <span class="thumb-info-inner">Ignatius Esene</span>
                                             <span class="thumb-info-type">SECRETARY GENERAL</span>
