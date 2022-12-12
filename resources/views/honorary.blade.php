@@ -90,7 +90,7 @@
                             <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                                 <span class="thumb-info-wrapper">
                                     <a href="">
-                                        <img src="{{asset('images/avatar.jpg')}}" class="img-fluid" alt="">
+                                        <img src="{{asset('images/El-Hakim.jpeg')}}" class="img-fluid" alt="">
                                         <span class="thumb-info-title">
                                             <span class="thumb-info-inner">Adel El Hakim</span>
                                         </span>
@@ -116,7 +116,7 @@
                             <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                                 <span class="thumb-info-wrapper">
                                     <a href="">
-                                        <img src="{{asset('images/avatar.jpg')}}" class="img-fluid" alt="">
+                                        <img src="{{asset('images/El-fiki.jpeg')}}" class="img-fluid" alt="">
                                         <span class="thumb-info-title">
                                             <span class="thumb-info-inner">Mohammed El Fiki</span>
                                             
@@ -130,7 +130,7 @@
                             <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                                 <span class="thumb-info-wrapper">
                                     <a href="">
-                                        <img src="{{asset('images/avatar.jpg')}}" class="img-fluid" alt="">
+                                        <img src="{{asset('images/El-Azhari.jpeg')}}" class="img-fluid" alt="">
                                         <span class="thumb-info-title">
                                             <span class="thumb-info-inner">Abdessamad El Azhari</span>
                                         </span>
@@ -143,9 +143,9 @@
                             <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                                 <span class="thumb-info-wrapper">
                                     <a href="">
-                                        <img src="{{asset('images/avatar.jpg')}}" class="img-fluid" alt="">
+                                        <img src="{{asset('images/Saydou.jpeg')}}" class="img-fluid" alt="">
                                         <span class="thumb-info-title">
-                                            <span class="thumb-info-inner">Saydou Boubakar Badian</span>
+                                            <span class="thumb-info-inner">Saydou Boubakar Badiane</span>
                                         </span>
                                     </a>
                                 </span>
@@ -156,7 +156,7 @@
                             <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                                 <span class="thumb-info-wrapper">
                                     <a href="">
-                                        <img src="{{asset('images/avatar.jpg')}}" class="img-fluid" alt="">
+                                        <img src="{{asset('images/Kazadi.jpeg')}}" class="img-fluid" alt="">
                                         <span class="thumb-info-title">
                                             <span class="thumb-info-inner">Kazadi Kalangu</span>
                                         </span>
@@ -185,6 +185,19 @@
                                         <img src="{{asset('images/avatar.jpg')}}" class="img-fluid" alt="">
                                         <span class="thumb-info-title">
                                             <span class="thumb-info-inner">Graham Fieggen</span>
+                                        </span>
+                                    </a>
+                                </span>
+                                
+                            </span>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 isotope-item development">
+                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
+                                <span class="thumb-info-wrapper">
+                                    <a href="">
+                                        <img src="{{asset('images/Abderrahmane.jpeg')}}" class="img-fluid" alt="">
+                                        <span class="thumb-info-title">
+                                            <span class="thumb-info-inner">Dr. Abderrahmane Sidi Said</span>
                                         </span>
                                     </a>
                                 </span>
