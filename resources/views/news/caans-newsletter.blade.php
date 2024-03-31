@@ -91,8 +91,8 @@
 
                             <article class="post post-large blog-single-post border-0 m-0 p-0">
                                 <div class="post-image ms-0">
-                                    <a href="{{ route('news.editorial-comment') }}">
-                                        <img src="{{ asset('Dr Aaron.png') }}"
+                                    <a href="{{ route('news.caans-newsletter') }}">
+                                        <img src="{{ asset('Ignatius.png') }}"
                                             class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
                                             alt="">
                                     </a>
@@ -106,23 +106,29 @@
                                 <div class="post-content ms-0">
 
                                     <h2 class="font-weight-semi-bold"><a
-                                            href="{{ route('news.editorial-comment') }}">EDITORIAL COMMENT</a></h2>
+                                            href="{{ route('news.caans-newsletter') }}">CAANS Newsletter in the Era of Health Digitalization</a></h2>
 
                                     <div class="post-meta">
-                                        <span><i class="far fa-user"></i> By <a href="#">Dr Aaron Musara,  MBChB, MMED(Neurosurgery), FCS(Neurosurgery) The Neurosciences Centre, Harare
+                                        <span><i class="far fa-user"></i> By <a href="#">Ignatius N Esene, MD, MSc, PhD, MPH, PgCert. (Health Econs), PgDip. (Intern. Health) Secretary General, CAANS Chair, WFNS Young Neurosurgeons Forum Neurosurgery Division, Faculty of Health Sciences, University of Bamenda, Bambili, Cameroon
+
                                             </a>
                                         </span>
                                     </div>
-                                    <p class="text-justify">The Continental Africa Association of Neurosurgical Societies (CAANS) newsletter is a publication of the society for promoting Neurosurgical work in Africa. At its 4th Congress in Kenya, the CAANS executive decided to forge ahead with the plan as per the constitution to get the publications of the association running. I am humbled to be the inaugural editor of this important publication meant to help spearhead the growth of the association working initially on the online platforms. </p>
-                                    <p class="text-justify">The publication shall be an online publication going forward with a thrust to publish at least three times a year. The frequency will be increased in line with the perceived need going forward.
+                                    <p class="text-justify">At a time when the global neurosurgical community is embracing novel technologies in health information and digitalization, African Neurosurgeons aren’t indifferent. Currently, the continent is devoid of a dedicated continental neurosurgery journal, creating a vacuum that will be temporally filled by the <b>CAANS Newsletter</b>.</p>
+                                    <p class="text-justify">In this groundbreaking move by CAANS’ Leadership towards   global accessibility, the online CAANS Newsletter transcends the multifarious, linguistic, cultural, geographical, and gender barriers; offering African Neurosurgeons, Researchers, Educators/Trainers and other Neuroscience professionals a virtual platform for collaboration and knowledge exchange.
                                     </p>
-                                    <p class="text-justify">I acknowledge the effort of the colleague who have participated in making this inaugural output to be success through contribution of articles, as well as providing pictures for us.  </p>
+                                    <p class="text-justify">CAANS Newsletter is an additional feature of the Official CAANS website <a href="https://africa-caans.org"> (http://africa-caans.org/)</a>. Other CAANS Media platforms include: Twitter (@realyoungcaans) and Facebook <a href="https://web.facebook.com/YoungCaans">(https://web.facebook.com/YoungCaans)</a> </p>
                                     <p class="text-justify">
-                                        That African neurosurgery has to grow is very well comprehended by all colleagues across the continent who are aware of the often talked about disparities between African Neurosurgery and the rest of the world. Having insight is the first most important thing for one to be able to overcome a challenge. We know our problem. Communication is one of the important keys for development.
+                                        With regards to the purpose and benefits, CAANS newsletter will periodically publish and send emails every quadrimester to subscribers on the latest news and updates about African and Global Neurosurgery.  CAANS Newsletters will keep Neuroscientists in Africa/World-wide   informed via different newsletter ideas, such as updates, articles, promotions, event announcements, and other updates of interest to the neurosurgical community.
                                     </p>
 
                                     <p class="text-justify">
-                                        By having a Newsletter, we look forward to improved communication across the African continent. I look forward to working with colleagues from different countries in our efforts to develop African Neurosurgery</p>
+                                        Reliable information is the key to decision‐making across health‐systems. Thus, CAANS newsletter will serve as a source of clinical and scientific information provided by the trainees, consultants and neurosurgical policy makers for patients (‘Patient Newsletter”), physicians and the general population. It will enhance the rapid collection, collation of data and communication of information about Neurological Surgery in Africa.
+                                    </p>
+                                    <p class="text-justify">
+                                        Kudos to the Editorial Team, CAANS Administrative Council Members and the entire African Neurosurgical Community for making the CAANS Newsletter Project a Reality.
+                                    </p>
+
 
                                     {{-- <div class="post-block mt-5 post-share">
                                         <h4 class="mb-3">Share this Post</h4>

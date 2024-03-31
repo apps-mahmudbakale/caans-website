@@ -4,18 +4,18 @@
 
 		<!-- Basic -->
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <title>CAANS | Continental Association of African Neurosurgical Societies</title>
 
-        <meta name="keywords" content="WebSite Template" />
-        <meta name="description" content="Porto - Multipurpose Website Template">
-        <meta name="author" content="okler.net">
-    
+        <meta name="keywords" content="" />
+        <meta name="description" content="Caans-website Built By Mahmud Bakale">
+        <meta name="author" content="Mahmud Bakale">
+
         <!-- Favicon -->
         <link rel="shortcut icon" href="images/logo.png" type="image/png" />
         <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    
+
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
@@ -87,7 +87,7 @@
                             </span>
                         </div>
                         @endforeach
-                       
+
                     </div>
 				</div>
 

@@ -9,9 +9,9 @@
 
     <title>CAANS | Continental Association of African Neurosurgical Societies</title>
 
-    <meta name="keywords" content="WebSite Template" />
-    <meta name="description" content="Porto - Multipurpose Website Template">
-    <meta name="author" content="okler.net">
+    <meta name="keywords" content="" />
+    <meta name="description" content="Caans-website Built By Mahmud Bakale">
+    <meta name="author" content="Mahmud Bakale">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/logo.png" type="image/png" />
@@ -158,11 +158,11 @@
                                         </div>
                                     </article>
                                 </div>
-                                {{-- <div class="col-md-4">
+                                <div class="col-md-4">
                                     <article class="post post-medium border-0 pb-0 mb-5">
                                         <div class="post-image">
-                                            <a href="blog-post.html">
-                                                <img src="img/blog/medium/blog-3.jpg"
+                                            <a href="{{route('news.caans-newsletter')}}">
+                                                <img src="{{asset('Ignatius.png')}}"
                                                     class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
                                                     alt="">
                                             </a>
@@ -171,25 +171,20 @@
                                         <div class="post-content">
 
                                             <h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a
-                                                    href="blog-post.html">Unlimited Ways</a></h2>
-                                            <p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu
-                                                ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                                    href="{{route('news.caans-newsletter')}}">CAANS Newsletter in the Era of Health Digitalization</a></h2>
+                                            <p class="text-justify">At a time when the global neurosurgical community is embracing novel technologies in health information and digitalization, African Neurosurgeons aren’t indifferent. Currently, the continent is devoid of a dedicated continental neurosurgery journal, creating a vacuum that will be temporally filled by the CAANS Newsletter.</p>
 
                                             <div class="post-meta">
-                                                <span><i class="far fa-user"></i> By <a href="#">John Doe</a>
+                                                <span><i class="far fa-user"></i> By <a href="#">Ignatius N Esene</a>
                                                 </span>
-                                                <span><i class="far fa-folder"></i> <a href="#">News</a>, <a
-                                                        href="#">Design</a> </span>
-                                                <span><i class="far fa-comments"></i> <a href="#">12
-                                                        Comments</a></span>
-                                                <span class="d-block mt-2"><a href="blog-post.html"
+                                                <span class="d-block mt-2"><a href="{{route('news.caans-newsletter')}}"
                                                         class="btn btn-xs btn-light text-1 text-uppercase">Read
                                                         More</a></span>
                                             </div>
 
                                         </div>
                                     </article>
-                                </div> --}}
+                                </div>
                                 {{-- <div class="col-md-4">
                                     <article class="post post-medium border-0 pb-0 mb-5">
                                         <div class="post-image">

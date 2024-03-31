@@ -9,10 +9,9 @@
 
     <title>CAANS | Continental Association of African Neurosurgical Societies</title>
 
-    <meta name="keywords" content="WebSite Template" />
-    <meta name="description" content="Porto - Multipurpose Website Template">
-    <meta name="author" content="okler.net">
-
+    <meta name="keywords" content="" />
+    <meta name="description" content="Caans-website Built By Mahmud Bakale">
+    <meta name="author" content="Mahmud Bakale">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/logo.png" type="image/png" />
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
@@ -245,7 +244,7 @@
                     <h2 class="text-center gradient-text-color font-weight-bold m-0">The Association is a not-for-profit, organization.</h2>
                 </div>
                 <div class="row pb-5 mb-5 mt-3">
-                   
+
                 </div>
             </div>
 

@@ -4,13 +4,13 @@
 
 		<!-- Basic -->
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <title>CAANS | Continental Association of African Neurosurgical Societies</title>
 
-    <meta name="keywords" content="WebSite Template" />
-    <meta name="description" content="Porto - Multipurpose Website Template">
-    <meta name="author" content="okler.net">
+        <meta name="keywords" content="" />
+        <meta name="description" content="Caans-website Built By Mahmud Bakale">
+        <meta name="author" content="Mahmud Bakale">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/logo.png" type="image/png" />
@@ -94,7 +94,7 @@
 									<h3 class="font-weight-bold text-4 mb-2">Means of Achieving Purposes</h3>
 									<p class="text-justify text-dark"  style="letter-spacing: 0.8px; line-height: 2.9">A primary means of achieving these purposes shall be the holding of a Continental Congress of Neurological Surgery (hereafter designated as the ''Congress''), usually at intervals of two years, except that the time of the Congress may be determined at the discretion of the Executive Committee.</p>
 								</div>
-								
+
 								<div class="col-md-6 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="800">
 									<h3 class="font-weight-bold text-4 mb-2">Other Activities.</h3>
 									<p class="text-justify text-dark"  style="letter-spacing: 0.8px; line-height: 2.9">The Association may engage in such other activities as are appropriate to its purpose at the discretion of the Executive Committee. The Association may embark on the establishment of specific Foundations to accomplish its purpose.</p>

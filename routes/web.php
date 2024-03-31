@@ -59,6 +59,9 @@ Route::get('/news/presidential-address-for-caans-newsletter', function () {
 Route::get('/news/editorial-comment', function () {
     return view('news.editorial-comment');
 })->name('news.editorial-comment');
+Route::get('/news/news-letter-Ignatius-Esene', function () {
+    return view('news.caans-newsletter');
+})->name('news.caans-newsletter');
 
 
 Route::get('/contact', function () {

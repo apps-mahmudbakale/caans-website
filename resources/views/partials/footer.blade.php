@@ -26,7 +26,7 @@
                 </ul>
             </div>
             <div class="col-md-3 col-lg-3 mb-5 mb-lg-0">
-                
+
             </div>
             <div class="col-lg-4">
                 <h5 class="text-6 text-transform-none font-weight-semibold text-color-light mb-4">Newsletter
@@ -54,7 +54,7 @@
         <div class="container py-2">
             <div class="row py-4">
                 <div class="col d-flex align-items-center justify-content-center mb-4 mb-lg-0">
-                    <p>© Copyright 2022. All Rights Reserved.</p>
+                    <p>© Copyright {{date('Y')}}. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
