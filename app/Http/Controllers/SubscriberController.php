@@ -31,22 +31,16 @@ class SubscriberController extends Controller
         ]);
 
         $logo = asset('caans_logo');
-        Mail::to($request->email)->send(new WelcomeNewsletter($logo));
+        Mail::to($subscriber->email)->send(new WelcomeNewsletter($logo));
 
         return redirect()->back()->with('success', 'You have been subscribed successfully!');
     }
 
-    public function unsubscribe($email)
+    public function unsubscribe(Subscriber $subscriber)
     {
-        $subscriber = Subscriber::where('email', $email)->first();
-
-        if ($subscriber) {
-            $subscriber->delete();
-            // Optionally, send an unsubscribe confirmation email
-            return redirect()->back()->with('success', 'You have been unsubscribed successfully.');
-        } else {
-            return redirect()->back()->with('error', 'Subscriber not found.');
-        }
+        $subscriber->delete();
+        // Optionally, send an unsubscribe confirmation email
+        return redirect()->back()->with('success', 'You have been unsubscribed successfully.');
     }
 
     /**

@@ -9,7 +9,7 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class SendOtpMail extends Mailable
+class WelcomeNewsletter extends Mailable
 {
     use Queueable, SerializesModels;
     public $logo;
@@ -29,7 +29,7 @@ class SendOtpMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('mail.')
+        return $this->markdown('mail.welcome-newsletter')
                 ->subject('Welcome to CAANS Newsletter');
     }
 }

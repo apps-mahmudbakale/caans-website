@@ -138,14 +138,7 @@
                                         to Namibia, via Mosi-O-A-Tunya (Victoria Falls) and its sacred spray, the
                                         Caprivi strip, towards home in Windhoek. I traversed the over 2000 Kilometers in
                                         3 days with 2 days to spare before going on to Cape Town. </p>
-                                    <p class="text-justify">
-                                        In the afternoon of the 24th, we had the remaining paper presentations from
-                                        young neurosurgeons. The best ten presentations were selected and given awards
-                                        in the evening. The presenters were also given the opportunity to present their
-                                        research work at the WFNS 2023 Congress in Cape town and received book gifts
-                                        from Prof Qureshi as well. The dinner was graced by the Honourable Minister of
-                                        Health of the Democratic Republic of Congo.
-                                    </p>
+
                                     <p class="text-justify">
                                         I arrived in Cape town in time for the Pre-Congress courses. I felt strange
                                         about being in another town without familiar work obligations after having spent
