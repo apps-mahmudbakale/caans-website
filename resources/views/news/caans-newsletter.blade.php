@@ -109,7 +109,7 @@
                                             href="{{ route('news.caans-newsletter') }}">CAANS Newsletter in the Era of Health Digitalization</a></h2>
 
                                     <div class="post-meta">
-                                        <span><i class="far fa-user"></i> By <a href="#">Ignatius N Esene, MD, MSc, PhD, MPH, PgCert. (Health Econs), PgDip. (Intern. Health) Secretary General, CAANS. Chair, WFNS Young Neurosurgeons Forum. Neurosurgery Division, Faculty of Health Sciences, University of Bamenda, Bambili, Cameroon.
+                                        <span><i class="far fa-user"></i> By <a href="#">Ignatius N Esene, MD, MSc, PhD, MPH, PgCert. (Health Econs), PgDip. (Intern. Health). Secretary General, CAANS. Chair, WFNS Young Neurosurgeons Forum. Neurosurgery Division, Faculty of Health Sciences, University of Bamenda, Bambili, Cameroon.
 
                                             </a>
                                         </span>

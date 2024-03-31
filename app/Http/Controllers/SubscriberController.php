@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Subscriber;
 use Illuminate\Http\Request;
+use App\Mail\WelcomeNewsletter;
+use Illuminate\Support\Facades\Mail;
 
 class SubscriberController extends Controller
 {
@@ -28,7 +30,8 @@ class SubscriberController extends Controller
             'email' => $request->email,
         ]);
 
-        // Send confirmation email if needed
+        $logo = asset('caans_logo');
+        Mail::to($request->email)->send(new WelcomeNewsletter($logo));
 
         return redirect()->back()->with('success', 'You have been subscribed successfully!');
     }
