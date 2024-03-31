@@ -74,6 +74,9 @@ Route::get('/news/reflections-on-18th', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
+Route::get('/subscribe', function () {
+    return view('subscribe');
+});
 
 Route::get('/bylaws', function () {
     return view('bylaws');
@@ -92,6 +95,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::resource('members', MemberController::class);
 });
 Route::post('/subscribe', [SubscriberController::class, 'subscribe'])->name('subscribe');
+
 
 Route::get('getCountries/{id}', [MemberController::class, 'getCountries']);
 Route::get('members-society/{region}', [MemberController::class, 'getMembersByRegion']);
