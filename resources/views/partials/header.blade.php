@@ -69,7 +69,7 @@ data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEn
 
                                     </li>
                                     <li class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle" href="#">
+                                        <a class="dropdown-item dropdown-toggle" href="{{route('news')}}">
                                             News
                                         </a>
                                     </li>

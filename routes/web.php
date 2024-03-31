@@ -49,6 +49,17 @@ Route::get('/journals', function () {
     return view('journals');
 })->name('journals');
 
+Route::get('/news', function () {
+    return view('news.index');
+})->name('news');
+
+Route::get('/news/presidential-address-for-caans-newsletter', function () {
+    return view('news.presidential-address');
+})->name('news.presidential-address');
+Route::get('/news/editorial-comment', function () {
+    return view('news.editorial-comment');
+})->name('news.editorial-comment');
+
 
 Route::get('/contact', function () {
     return view('contact');
@@ -66,7 +77,7 @@ Route::get('/members-society', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::group(['middleware' => ['auth']], function () { 
+Route::group(['middleware' => ['auth']], function () {
     Route::resource('users', UserController::class);
     Route::resource('members', MemberController::class);
 });
