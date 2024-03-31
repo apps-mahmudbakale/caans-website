@@ -30,7 +30,7 @@ class SubscriberController extends Controller
             'email' => $request->email,
         ]);
 
-        $logo = asset('caans_logo');
+        $logo = asset('images/b3a79706-a1fc-4102-ac81-797f7c96adeb.jpeg');
         Mail::to($subscriber->email)->send(new WelcomeNewsletter($logo));
 
         return redirect()->back()->with('success', 'You have been subscribed successfully!');

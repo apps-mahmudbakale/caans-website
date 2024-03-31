@@ -13,6 +13,7 @@
 <body>
     <!-- partial:index.partial.html -->
     <div class="subscribe">
+        <img src="{{asset('images/b3a79706-a1fc-4102-ac81-797f7c96adeb.jpeg')}}" alt=""  width="100" height="77">
         <h2 class="subscribe__title">Let's keep in touch</h2>
         @if (session('success'))
             {{-- <p style="color: green;">{{ session('success') }}</p> --}}
