@@ -48,7 +48,11 @@
 
     <!-- Head Libs -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
-
+    <style>
+        .card{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+    </style>
 </head>
 
 <body data-plugin-page-transition>
@@ -103,152 +107,155 @@
                         <div class="blog-posts">
 
                             <div class="row">
-                                <div class="col-md-4">
-                                    <article class="post post-medium border-0 pb-0 mb-5">
-                                        <div class="post-image">
-                                            <a href="blog-post.html">
-                                                <img src="{{asset('Picture 1.png')}}"
-                                                    class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
-                                                    alt="">
-                                            </a>
-                                        </div>
-
-                                        <div class="post-content">
-
-                                            <h2 class="font-weight-semibold text-4 line-height-6 mt-3 mb-2"><a
-                                                    href="{{route('news.presidential-address')}}">PRESIDENTIAL ADDRESS FOR THE CAANS NEWSLETTER</a></h2>
-                                            <p class="text-justify">On behalf of the CAANS , I want to thank the editorial committee for coming up with the idea of a periodic newsletter, I hope it will continue with realistic regularity, showcasing the various national ,regional and continental neurosurgical societies activities.</p>
-
-                                            <div class="post-meta">
-                                                <span><i class="far fa-user"></i> By <a href="#">Professor B B Shehu</a>
-                                                </span>
-
-                                                <span class="d-block mt-2"><a href="{{route('news.presidential-address')}}"
-                                                        class="btn btn-xs btn-light text-1 text-uppercase">Read
-                                                        More</a></span>
+                                <div class="card col-md-4">
+                                    <div class="card-body">
+                                        <article class="post post-medium border-0 pb-0 mb-5">
+                                            <div class="post-image">
+                                                <a href="blog-post.html">
+                                                    <img src="{{asset('Picture 1.png')}}"
+                                                        class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+                                                        alt="">
+                                                </a>
                                             </div>
 
-                                        </div>
-                                    </article>
+                                            <div class="post-content">
+
+                                                <h2 class="font-weight-semibold text-4 line-height-6 mt-3 mb-2"><a
+                                                        href="{{route('news.presidential-address')}}">PRESIDENTIAL ADDRESS FOR THE CAANS NEWSLETTER</a></h2>
+                                                <p class="text-justify">On behalf of the CAANS , I want to thank the editorial committee for coming up with the idea of a periodic newsletter, I hope it will continue with realistic regularity, showcasing the various national ,regional and continental neurosurgical societies activities.</p>
+
+                                                <div class="post-meta">
+                                                    <span><i class="far fa-user"></i> By <a href="#">Professor B B Shehu</a>
+                                                    </span>
+
+                                                    <span class="d-block mt-2"><a href="{{route('news.presidential-address')}}"
+                                                            class="btn btn-xs btn-light text-1 text-uppercase">Read
+                                                            More</a></span>
+                                                </div>
+
+                                            </div>
+                                        </article>
+                                    </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <article class="post post-medium border-0 pb-0 mb-5">
-                                        <div class="post-image">
-                                            <a href="blog-post.html">
-                                                <img src="{{asset('Dr Aaron.png')}}"
-                                                    class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
-                                                    alt="">
-                                            </a>
-                                        </div>
-
-                                        <div class="post-content">
-
-                                            <h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a
-                                                    href="{{route('news.editorial-comment')}}">Editorial Comment</a></h2>
-                                            <p class="text-justify">The Continental Africa Association of Neurosurgical Societies (CAANS) newsletter is a publication of the society for promoting Neurosurgical work in Africa. At its 4th Congress in Kenya, the CAANS executive decided to forge ahead with the plan as per the constitution to get the publications of the association running. </p>
-
-                                            <div class="post-meta">
-                                                <span><i class="far fa-user"></i> By <a href="#">Dr. Aaron Musara</a>
-                                                </span>
-                                                <span class="d-block mt-2"><a href="{{route('news.editorial-comment')}}"
-                                                        class="btn btn-xs btn-light text-1 text-uppercase">Read
-                                                        More</a></span>
+                                <div class="card col-md-4">
+                                    <div class="card-body">
+                                        <article class="post post-medium border-0 pb-0 mb-5">
+                                            <div class="post-image">
+                                                <a href="blog-post.html">
+                                                    <img src="{{asset('Dr Aaron.png')}}"
+                                                        class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+                                                        alt="">
+                                                </a>
                                             </div>
 
-                                        </div>
-                                    </article>
+                                            <div class="post-content">
+
+                                                <h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a
+                                                        href="{{route('news.editorial-comment')}}">Editorial Comment</a></h2>
+                                                <p class="text-justify">The Continental Africa Association of Neurosurgical Societies (CAANS) newsletter is a publication of the society for promoting Neurosurgical work in Africa. At its 4th Congress in Kenya, the CAANS executive decided to forge ahead with the plan as per the constitution to get the publications of the association running. </p>
+
+                                                <div class="post-meta">
+                                                    <span><i class="far fa-user"></i> By <a href="#">Dr. Aaron Musara</a>
+                                                    </span>
+                                                    <span class="d-block mt-2"><a href="{{route('news.editorial-comment')}}"
+                                                            class="btn btn-xs btn-light text-1 text-uppercase">Read
+                                                            More</a></span>
+                                                </div>
+
+                                            </div>
+                                        </article>
+                                    </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <article class="post post-medium border-0 pb-0 mb-5">
-                                        <div class="post-image">
-                                            <a href="{{route('news.caans-newsletter')}}">
-                                                <img src="{{asset('Ignatius.png')}}"
-                                                    class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
-                                                    alt="">
-                                            </a>
-                                        </div>
-
-                                        <div class="post-content">
-
-                                            <h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a
-                                                    href="{{route('news.caans-newsletter')}}">CAANS Newsletter in the Era of Health Digitalization</a></h2>
-                                            <p class="text-justify">At a time when the global neurosurgical community is embracing novel technologies in health information and digitalization, African Neurosurgeons aren’t indifferent. Currently, the continent is devoid of a dedicated continental neurosurgery journal, creating a vacuum that will be temporally filled by the CAANS Newsletter.</p>
-
-                                            <div class="post-meta">
-                                                <span><i class="far fa-user"></i> By <a href="#">Ignatius N Esene</a>
-                                                </span>
-                                                <span class="d-block mt-2"><a href="{{route('news.caans-newsletter')}}"
-                                                        class="btn btn-xs btn-light text-1 text-uppercase">Read
-                                                        More</a></span>
+                                <div class="card col-md-4">
+                                    <div class="card-body">
+                                        <article class="post post-medium border-0 pb-0 mb-5">
+                                            <div class="post-image">
+                                                <a href="{{route('news.caans-newsletter')}}">
+                                                    <img src="{{asset('Ignatius.png')}}"
+                                                        class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+                                                        alt="">
+                                                </a>
                                             </div>
 
-                                        </div>
-                                    </article>
+                                            <div class="post-content">
+
+                                                <h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a
+                                                        href="{{route('news.caans-newsletter')}}">CAANS Newsletter in the Era of Health Digitalization</a></h2>
+                                                <p class="text-justify">At a time when the global neurosurgical community is embracing novel technologies in health information and digitalization, African Neurosurgeons aren’t indifferent. Currently, the continent is devoid of a dedicated continental neurosurgery journal, creating a vacuum that will be temporally filled by the CAANS Newsletter.</p>
+
+                                                <div class="post-meta">
+                                                    <span><i class="far fa-user"></i> By <a href="#">Ignatius N Esene</a>
+                                                    </span>
+                                                    <span class="d-block mt-2"><a href="{{route('news.caans-newsletter')}}"
+                                                            class="btn btn-xs btn-light text-1 text-uppercase">Read
+                                                            More</a></span>
+                                                </div>
+
+                                            </div>
+                                        </article>
+                                    </div>
+
                                 </div>
-                                {{-- <div class="col-md-4">
-                                    <article class="post post-medium border-0 pb-0 mb-5">
-                                        <div class="post-image">
-                                            <a href="blog-post.html">
-                                                <img src="img/blog/medium/blog-4.jpg"
-                                                    class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
-                                                    alt="">
-                                            </a>
-                                        </div>
-
-                                        <div class="post-content">
-
-                                            <h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a
-                                                    href="blog-post.html">Developer Life</a></h2>
-                                            <p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu
-                                                ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-
-                                            <div class="post-meta">
-                                                <span><i class="far fa-user"></i> By <a href="#">Jessica Doe</a>
-                                                </span>
-                                                <span><i class="far fa-folder"></i> <a href="#">News</a>, <a
-                                                        href="#">Design</a> </span>
-                                                <span><i class="far fa-comments"></i> <a href="#">12
-                                                        Comments</a></span>
-                                                <span class="d-block mt-2"><a href="blog-post.html"
-                                                        class="btn btn-xs btn-light text-1 text-uppercase">Read
-                                                        More</a></span>
+                                <div class="card col-md-4">
+                                    <div class="card-body">
+                                        <article class="post post-medium border-0 pb-0 mb-5">
+                                            <div class="post-image">
+                                                <a href="{{route('news.yanf-session')}}">
+                                                    <img src="{{asset('Dr Kantenga.png')}}"
+                                                        class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+                                                        alt="">
+                                                </a>
                                             </div>
 
-                                        </div>
-                                    </article>
-                                </div> --}}
-                                {{-- <div class="col-md-4">
-                                    <article class="post post-medium border-0 pb-0 mb-5">
-                                        <div class="post-image">
-                                            <a href="blog-post.html">
-                                                <img src="img/blog/medium/blog-5.jpg"
-                                                    class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
-                                                    alt="">
-                                            </a>
-                                        </div>
+                                            <div class="post-content">
 
-                                        <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a
+                                                        href="{{route('news.yanf-session')}}">YOUNG AFRICAN NEUROSURGEONS FORUM (YANF) SESSION AT THE WFNS SPINE COMMITTEE</a></h2>
+                                                <p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu
+                                                    ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
 
-                                            <h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a
-                                                    href="blog-post.html">The Blue Sky</a></h2>
-                                            <p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu
-                                                ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                                <div class="post-meta">
+                                                    <span><i class="far fa-user"></i> By <a href="#">Dr Kantenga Dieu Merci Kabulo</a>
+                                                    </span>
+                                                    <span class="d-block mt-2"><a href="{{route('news.yanf-session')}}"
+                                                            class="btn btn-xs btn-light text-1 text-uppercase">Read
+                                                            More</a></span>
+                                                </div>
 
-                                            <div class="post-meta">
-                                                <span><i class="far fa-user"></i> By <a href="#">Robert Doe</a>
-                                                </span>
-                                                <span><i class="far fa-folder"></i> <a href="#">News</a>, <a
-                                                        href="#">Design</a> </span>
-                                                <span><i class="far fa-comments"></i> <a href="#">12
-                                                        Comments</a></span>
-                                                <span class="d-block mt-2"><a href="blog-post.html"
-                                                        class="btn btn-xs btn-light text-1 text-uppercase">Read
-                                                        More</a></span>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="card col-md-4">
+                                    <div class="card-body">
+                                        <article class="post post-medium border-0 pb-0 mb-5">
+                                            <div class="post-image">
+                                                <a href="{{route('news.reflections-on-18')}}">
+                                                    <img src="{{asset('Aminat Sallah.png')}}"
+                                                        class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+                                                        alt="">
+                                                </a>
                                             </div>
 
-                                        </div>
-                                    </article>
-                                </div> --}}
+                                            <div class="post-content">
+
+                                                <h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a
+                                                        href="{{route('news.reflections-on-18')}}">REFLECTIONS OF A YOUNG NEUROSURGEON ON THE 18th WORLD FEDERATION OF NEUROSURGICAL SOCIETIES CONGRESS CAPE TOWN 2023</a></h2>
+                                                <p></p>
+
+                                                <div class="post-meta">
+                                                    <span><i class="far fa-user"></i> By <a href="#">DR. AMINATA YANDEH SALLAH-TJIRONGO</a>
+                                                    </span>
+
+                                                    <span class="d-block mt-2"><a href="{{route('news.reflections-on-18')}}"
+                                                            class="btn btn-xs btn-light text-1 text-uppercase">Read
+                                                            More</a></span>
+                                                </div>
+
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
                                 {{-- <div class="col-md-4">
                                     <article class="post post-medium border-0 pb-0 mb-5">
                                         <div class="post-image">

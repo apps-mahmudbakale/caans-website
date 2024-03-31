@@ -4,6 +4,7 @@ use App\Models\Region;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\MemberController;
+use App\Http\Controllers\SubscriberController;
 
 /*
 |--------------------------------------------------------------------------
@@ -62,6 +63,12 @@ Route::get('/news/editorial-comment', function () {
 Route::get('/news/news-letter-Ignatius-Esene', function () {
     return view('news.caans-newsletter');
 })->name('news.caans-newsletter');
+Route::get('/news/yanf-session', function () {
+    return view('news.yanf-session');
+})->name('news.yanf-session');
+Route::get('/news/reflections-on-18th', function () {
+    return view('news.reflections');
+})->name('news.reflections-on-18');
 
 
 Route::get('/contact', function () {
@@ -84,6 +91,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::resource('users', UserController::class);
     Route::resource('members', MemberController::class);
 });
+Route::post('/subscribe', [SubscriberController::class, 'subscribe'])->name('subscribe');
 
 Route::get('getCountries/{id}', [MemberController::class, 'getCountries']);
 Route::get('members-society/{region}', [MemberController::class, 'getMembersByRegion']);

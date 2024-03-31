@@ -92,7 +92,7 @@
                             <article class="post post-large blog-single-post border-0 m-0 p-0">
                                 <div class="post-image ms-0">
                                     <a href="{{ route('news.caans-newsletter') }}">
-                                        <img src="{{ asset('Ignatius.png') }}"
+                                        <img src="{{ asset('Dr Kantenga.png') }}"
                                             class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
                                             alt="">
                                     </a>
@@ -106,27 +106,39 @@
                                 <div class="post-content ms-0">
 
                                     <h2 class="font-weight-semi-bold"><a
-                                            href="{{ route('news.caans-newsletter') }}">CAANS Newsletter in the Era of Health Digitalization</a></h2>
+                                            href="{{ route('news.caans-newsletter') }}">YOUNG AFRICAN NEUROSURGEONS FORUM (YANF) SESSION AT THE WFNS SPINE COMMITTEE BASIC SPINE COURSE/ JOINT YOUNG CAANS/ CONGOLESE SOCIETY OF NEUROSURGEONS</a></h2>
 
                                     <div class="post-meta">
-                                        <span><i class="far fa-user"></i> By <a href="#">Ignatius N Esene, MD, MSc, PhD, MPH, PgCert. (Health Econs), PgDip. (Intern. Health) Secretary General, CAANS. Chair, WFNS Young Neurosurgeons Forum. Neurosurgery Division, Faculty of Health Sciences, University of Bamenda, Bambili, Cameroon.
+                                        <span><i class="far fa-user"></i> By <a href="#">Dr Kantenga Dieu Merci Kabulo, Jason Sendwe General Provincial hospital, Lumbumbashi, Democratic Republic of Congo
 
                                             </a>
                                         </span>
                                     </div>
-                                    <p class="text-justify">At a time when the global neurosurgical community is embracing novel technologies in health information and digitalization, African Neurosurgeons aren’t indifferent. Currently, the continent is devoid of a dedicated continental neurosurgery journal, creating a vacuum that will be temporally filled by the <b>CAANS Newsletter</b>.</p>
-                                    <p class="text-justify">In this groundbreaking move by CAANS’ Leadership towards   global accessibility, the online CAANS Newsletter transcends the multifarious, linguistic, cultural, geographical, and gender barriers; offering African Neurosurgeons, Researchers, Educators/Trainers and other Neuroscience professionals a virtual platform for collaboration and knowledge exchange.
-                                    </p>
-                                    <p class="text-justify">CAANS Newsletter is an additional feature of the Official CAANS website <a href="https://africa-caans.org"> (http://africa-caans.org/)</a>. Other CAANS Media platforms include: Twitter (@realyoungcaans) and Facebook <a href="https://web.facebook.com/YoungCaans">(https://web.facebook.com/YoungCaans)</a> </p>
+                                    <h5>22 JUNE 2023</h5>
                                     <p class="text-justify">
-                                        With regards to the purpose and benefits, CAANS newsletter will periodically publish and send emails every quadrimester to subscribers on the latest news and updates about African and Global Neurosurgery.  CAANS Newsletters will keep Neuroscientists in Africa/World-wide   informed via different newsletter ideas, such as updates, articles, promotions, event announcements, and other updates of interest to the neurosurgical community.
+                                        The Session kicked off with the UpSurgeOn Neurosimulation Course facilitated by our immediate past Chair Dr Ignatius Esene. We had the Opening address by Prof Ntsambi, the Vice President of the Congolese Society of Neurosurgeons. We had other addresses by the WFNS President-elect Prof Najia El-Abaddi, the CAANS President Prof BB Shehu, our sponsor Dr Jeff Ntalanja, Dr Edwin Mogere, and Dr Ignatius Esene. We had a great attendance consisting of medical students, residents and neurosurgeons from many countries. We had the anatomy box, ACDF box, subtemporal approach box, trans-sphenoidal surgery box, vascular box, and also had a demonstration of the use of the exoscope.
+                                    </p>
+                                    <p class="text-justify">
+                                        In the afternoon, we had an insightful discussion by our elders in Neurosurgery on the continent, speaking about Neurosugery education in the different parts of Africa and the future of Neurosurgery in the continent. We had a total atttendance of 105 persons with 16 of these being female. Dr Ignatius Esene gave a lecture on the beginnings of the Young African Neurosurgeons Forum (also known as Young CAANS). He defined a young Neurosurgeon as one within 10 years of completing training or a Neurosurgeon in Training. The YANF started in 2018 at the CAANS Congress in Abuja, Nigeria. Dr. Esene became the first Chair of the Young African Neurosurgeons Forum and he built up a team of young neurosurgeons from across the continent. The YANF since inception has been focused on Education and Research as these are the tools needed to build the future of African Neurosurgery. We are also set to improve on Mentorship and Advocacy for neurosurgery.
+                                    </p>
+                                    <p class="text-justify">In the evening we had a robust session with 8 young neurosurgeons from across the continent discussing their research work. </p>
+                                    <h5>24 JUNE 2023</h5>
+                                    <p class="text-justify">
+                                        In the afternoon of the 24th, we had the remaining paper presentations from young neurosurgeons. The best ten presentations were selected and given awards in the evening. The presenters were also given the opportunity to present their research work at the WFNS 2023 Congress in Cape town and received book gifts from Prof Qureshi as well. The dinner was graced by the Honourable Minister of Health of the Democratic Republic of Congo.
+                                    </p>
+                                    <h5>25 JUNE 2023</h5>
+                                    <p class="text-justify">
+                                        On Sunday the 25th, we set out early to visit the National Animal Parc. It was a great experience. We saw Rhinos, Hippopotamuses, Lions, lots of Zebras, Crocodiles etc. It was an amazing time.
                                     </p>
 
                                     <p class="text-justify">
-                                        Reliable information is the key to decision‐making across health‐systems. Thus, CAANS newsletter will serve as a source of clinical and scientific information provided by the trainees, consultants and neurosurgical policy makers for patients (‘Patient Newsletter”), physicians and the general population. It will enhance the rapid collection, collation of data and communication of information about Neurological Surgery in Africa.
+                                        The day rounded up with dinner in the Airplane Restaurant situated at the top of the hills in the Animal Parc.
                                     </p>
                                     <p class="text-justify">
-                                        Kudos to the Editorial Team, CAANS Administrative Council Members and the entire African Neurosurgical Community for making the CAANS Newsletter Project a Reality.
+                                        We had good interaction between young African neurosurgeons and our neurosugery elders. We had participation of neurosurgeons/spine surgeons from outside Africa, notably Prof Selman Shariff, Dr Corinna Zygourakis, Dr Mizra Pojskic. It was generally an intellectually stimulating time at the Conference.
+                                    </p>
+                                    <p class="text-justify">
+                                        Kinshasa Congo will be hosting the CAANS Conference 2024. We look forward to more amazing time with the bigger African family.
                                     </p>
 
 
