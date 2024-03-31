@@ -37,7 +37,10 @@
                 <p class="text-4 mb-1">Get all the latest informationon and News.</p>
                 <p class="text-4">Sign up for newsletter today.</p>
                 @if (session('success'))
-                    <p style="color: green;">{{ session('success') }}</p>
+                    {{-- <p style="color: green;">{{ session('success') }}</p> --}}
+                    <script>
+                        alert('{{ session('success') }}');
+                    </script>
                 @endif
 
                 @if (session('error'))
